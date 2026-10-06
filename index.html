@@ -27,6 +27,7 @@
   </div>
   <nav class="wrap sections" aria-label="Sections">
     <a href="#statements">Press Statements</a>
+    <a href="#writings">Commentary</a>
     <a href="#stories">In the News</a>
     <a href="#radio">On Air</a>
     <a href="#about">About</a>
@@ -45,7 +46,7 @@
       <ul class="stats">
         <li><strong>15+</strong><span>years in media and PR</span></li>
         <li><strong>6</strong><span>years in the Governor's Office</span></li>
-        <li id="stat-statements"><strong>0</strong><span>statements archived here</span></li>
+        <li id="stat-statements"><strong>0</strong><span>signed statements archived</span></li>
       </ul>
     </div>
     <figure class="lead-figure">
@@ -57,16 +58,33 @@
   <section id="statements" class="wrap block">
     <header class="block-head">
       <h2>Press Statements</h2>
-      <p>Issued as Chief Press Secretary to the Governor of Ondo State, as carried by the national press.</p>
-      <div class="filters" id="filters" role="toolbar" aria-label="Filter statements"></div>
+      <p>Statements issued and signed in each role, as first published on Facebook.</p>
+      <div class="tabs" id="role-tabs" role="tablist" aria-label="Role"></div>
     </header>
-    <div class="grid" id="statements-list"></div>
+    <div id="role-intro" class="role-intro"></div>
+    <ol class="ledger" id="statements-list"></ol>
+  </section>
+
+  <section id="milestones" class="wrap block milestones">
+    <header class="block-head">
+      <h2>Milestones</h2>
+      <p>In his own words.</p>
+    </header>
+    <div class="ms-grid" id="milestones-list"></div>
+  </section>
+
+  <section id="writings" class="wrap block">
+    <header class="block-head">
+      <h2>Commentary</h2>
+      <p>Essays on public relations, political communication and reputation. <a href="https://substack.com/@richardolatunde1" target="_blank" rel="noopener">Subscribe on Substack</a></p>
+    </header>
+    <ol class="river compact" id="writings-list"></ol>
   </section>
 
   <section id="stories" class="wrap block">
     <header class="block-head">
       <h2>In the News</h2>
-      <p>Coverage, interviews and commentary.</p>
+      <p>How the national press carried his statements, plus interviews and coverage.</p>
     </header>
     <ol class="river" id="stories-list"></ol>
   </section>
