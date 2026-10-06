@@ -490,13 +490,25 @@ window.PORTFOLIO = {
    "date": "2021-03-02",
    "title": "My Appointment, Another Demonstration of Gov. Akeredolu's Love for the Youths",
    "url": "https://www.facebook.com/olatunde.rechard/posts/pfbid02CgjRhtdD5j3WBKbG3BHL33FhgdfsC2ntTR9gCAwJBxCWku36ch4URUgpffNHKP1Jl",
-   "note": "The post announcing his appointment as Chief Press Secretary, after serving as campaign spokesperson."
+   "note": "Appointed at a younger age than any Chief Press Secretary before him in Ondo State, after serving as campaign spokesperson."
   },
   {
    "date": "2023-12-27",
    "title": "Resignation Letter",
    "url": "https://www.facebook.com/olatunde.rechard/posts/pfbid02or82CWYbTN5x88HPd7YZaAQ5v4frwC2pZn9rgRV93vozHrAGDYhBx5D8Y3Y4hvF3l",
    "note": "Stepped down the day the governor's death was announced."
+  },
+  {
+   "date": "2017-08-10",
+   "title": "Elected Secretary, NUJ Ondo State Correspondents' Chapel",
+   "url": "https://osundefender.com/ondo-nuj-chapel-elects-new-executives/",
+   "note": "Elected while reporting for UNIQ 103.1 FM, to serve a three-year term."
+  },
+  {
+   "date": "2018-04-11",
+   "title": "Akeredolu Gets New Media Aide",
+   "url": "https://www.facebook.com/100000432949607/posts/2070860696271675/",
+   "note": "The government announcement of his appointment as Special Assistant on New Media."
   }
  ],
  "writings": [
@@ -736,16 +748,106 @@ window.PORTFOLIO = {
    "title": "Akeredolu appoints new Chief Press Secretary",
    "summary": "Appointed Chief Press Secretary after serving as Special Assistant on New Media in the governor's first term.",
    "url": "https://www.vanguardngr.com/2021/03/akeredolu-appoints-new-chief-press-secretary-retains-chief-of-staff/"
+  },
+  {
+   "date": "2017-08-10",
+   "outlet": "Osun Defender",
+   "title": "Ondo NUJ Chapel Elects New Executives",
+   "summary": "Elected Secretary of the Correspondents' Chapel while representing UNIQ 103.1 FM.",
+   "url": "https://osundefender.com/ondo-nuj-chapel-elects-new-executives/"
+  },
+  {
+   "date": "2017-08-11",
+   "outlet": "Daily Post",
+   "title": "Government must prioritize welfare of media practitioners, says Ondo NUJ",
+   "summary": "Coverage of the new chapel executive's agenda for journalists in the state.",
+   "url": "https://dailypost.ng/2017/08/11/government-must-prioritize-welfare-media-practitioners-ondo-nuj/"
+  },
+  {
+   "date": "2017-08-17",
+   "outlet": "The Guardian",
+   "title": "Ondo NUJ gets new executive, prioritises members' training",
+   "summary": "Inaugurated as Secretary of the Ondo State Correspondents' Chapel.",
+   "url": "https://guardian.ng/appointments/ondo-nuj-gets-new-executive-prioritises-members-training/"
+  },
+  {
+   "date": "2020-07-29",
+   "outlet": "Channels Television",
+   "title": "Ondo Election: Akeredolu Names Aiyedatiwa As Running Mate",
+   "summary": "As Special Assistant on New Media, broke the news of the governor's choice of running mate.",
+   "url": "https://www.channelstv.com/2020/07/29/ondo-election-akeredolu-names-aiyedatiwa-as-running-mate/"
+  },
+  {
+   "date": "2021-03-01",
+   "outlet": "The Oasis Reporters",
+   "title": "Olabode Richard At The Cusp Of History, As Akeredolu Appoints Him Chief Press Secretary",
+   "summary": "Profile of the new Chief Press Secretary on the day of his appointment.",
+   "url": "https://www.theoasisreporters.com/ondo-olabode-richard-at-the-cusp-of-history-as-akeredolu-appoints-him-chief-press-secretary/"
+  },
+  {
+   "date": "2021-03-02",
+   "outlet": "PathNews",
+   "title": "Akeredolu CPS Hails Appointment, Says Governor Is Youth Friendly",
+   "summary": "His first public remarks as Chief Press Secretary.",
+   "url": "https://pathnews.com.ng/akeredolu-cps-hails-appointment-says-governor-is-youth-friendly/"
   }
  ],
  "radio": [
   {
    "date": "",
    "station": "Adaba 88.9 FM, Akure",
-   "title": "In the studio at Adaba FM",
-   "summary": "On air at Adaba 88.9 FM, Akure.",
+   "title": "Media Parley, clip 1",
+   "summary": "Discussing the programmes of the Akeredolu administration.",
    "video": "media/adaba-fm-akure-1.mp4",
    "poster": "media/adaba-fm-akure-1.jpg"
+  },
+  {
+   "date": "",
+   "station": "Adaba 88.9 FM, Akure",
+   "title": "Media Parley, clip 2",
+   "summary": "Discussing the programmes of the Akeredolu administration.",
+   "video": "media/media-parley-1.mp4",
+   "poster": "media/media-parley-1.jpg"
+  },
+  {
+   "date": "",
+   "station": "Adaba 88.9 FM, Akure",
+   "title": "Media Parley, clip 3",
+   "summary": "Discussing the programmes of the Akeredolu administration.",
+   "video": "media/media-parley-3.mp4",
+   "poster": "media/media-parley-3.jpg"
+  },
+  {
+   "date": "",
+   "station": "Adaba 88.9 FM, Akure",
+   "title": "Media Parley, clip 4",
+   "summary": "Discussing the programmes of the Akeredolu administration.",
+   "video": "media/media-parley-5.mp4",
+   "poster": "media/media-parley-5.jpg"
+  },
+  {
+   "date": "",
+   "station": "Adaba 88.9 FM, Akure",
+   "title": "Media Parley, clip 5",
+   "summary": "Discussing the programmes of the Akeredolu administration.",
+   "video": "media/media-parley-6.mp4",
+   "poster": "media/media-parley-6.jpg"
+  },
+  {
+   "date": "",
+   "station": "Adaba 88.9 FM, Akure",
+   "title": "Media Parley, clip 6",
+   "summary": "Discussing the programmes of the Akeredolu administration.",
+   "video": "media/media-parley-7.mp4",
+   "poster": "media/media-parley-7.jpg"
+  },
+  {
+   "date": "",
+   "station": "Adaba 88.9 FM, Akure",
+   "title": "Media Parley, clip 7",
+   "summary": "Discussing the programmes of the Akeredolu administration.",
+   "video": "media/media-parley-8.mp4",
+   "poster": "media/media-parley-8.jpg"
   }
  ]
 };
