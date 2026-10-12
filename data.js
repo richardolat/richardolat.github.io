@@ -672,6 +672,12 @@ window.PORTFOLIO = {
    "title": "Southern Presidency: Gov Akeredolu and the Gains of Courageous Leadership",
    "url": "https://www.facebook.com/olatunde.rechard/posts/pfbid0HkQHajV3mxsE4Qst2VZXAwc7hNLxhZBy1yt3oSHgXA71kWfAwkftsmuNKZwEJxLKl",
    "outlet": "Facebook"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "Managing Internal and External Communication Effectively",
+   "url": "https://richardolatunde1.substack.com/p/managing-internal-and-external-communication",
+   "outlet": "Substack"
   }
  ],
  "stories": [
