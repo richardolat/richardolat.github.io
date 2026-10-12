@@ -277,6 +277,11 @@ window.PORTFOLIO = {
      "date": "2023-12-12",
      "title": "Akeredolu Commences Medical Leave",
      "url": "https://www.facebook.com/olatunde.rechard/posts/pfbid04gos2BQkoHWbLPXfWUdoWscK63jhBCngMdMFQcm6ynQjw8u1uAhouzADsBNsKpNwl"
+    },
+    {
+     "date": "2023-01-17",
+     "title": "On Governor Akeredolu's State Of Health, No Cause For Alarm",
+     "url": "https://www.facebook.com/olatunde.rechard/posts/pfbid0Le3GBq16pgP2Pqwub1vsjXDVFsi2sRTemuVywFDF19sTuguxzTah6sE7dP5VJjFzl"
     }
    ]
   },
@@ -654,6 +659,18 @@ window.PORTFOLIO = {
    "date": "2018-06-05",
    "title": "Ekiti Election: The Vituperation of a Political Desperado",
    "url": "https://www.facebook.com/olatunde.rechard/posts/pfbid0LtZY48uRRSRrdL7GTMnVMexHBHcxhKkHT5LBzqNyRjQetXTMZ7Q554w5YyQv9wywl",
+   "outlet": "Facebook"
+  },
+  {
+   "date": "2022-10-11",
+   "title": "Gov Akeredolu: An Unyielding Voice in the Affairs of Nigeria",
+   "url": "https://www.facebook.com/100002063623600/posts/5572209932857739/",
+   "outlet": "Facebook"
+  },
+  {
+   "date": "2022-06-05",
+   "title": "Southern Presidency: Gov Akeredolu and the Gains of Courageous Leadership",
+   "url": "https://www.facebook.com/olatunde.rechard/posts/pfbid0HkQHajV3mxsE4Qst2VZXAwc7hNLxhZBy1yt3oSHgXA71kWfAwkftsmuNKZwEJxLKl",
    "outlet": "Facebook"
   }
  ],
