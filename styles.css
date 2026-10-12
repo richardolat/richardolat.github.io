@@ -250,3 +250,5 @@ figcaption { font: italic 15px/1.4 var(--serif); color: var(--ink-2); margin-top
 .install-sheet .row { display: flex; gap: 10px; justify-content: flex-end; }
 .install-sheet button { font: 700 12px/1 var(--sans); letter-spacing: .06em; text-transform: uppercase; padding: 10px 14px; border: 1px solid var(--ink); background: transparent; color: var(--ink); cursor: pointer; }
 .install-sheet button.primary { background: var(--ink); color: var(--paper); }
+.about-figure { margin: 24px 0 0; }
+.about-figure img { width: 100%; height: auto; }
