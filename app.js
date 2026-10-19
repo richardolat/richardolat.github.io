@@ -76,9 +76,14 @@
   var tf = document.getElementById("tw-featured");
   if (tf) tf.innerHTML = feat.map(function (id) {
     var r = recaps.filter(function (x) { return x.post === id; })[0] || {};
-    return '<figure class="tw-card"><div class="tw-embed"><iframe src="https://www.facebook.com/plugins/post.php?href=' + encodeURIComponent(postUrl(id)) + '&width=500&show_text=true" width="500" height="640" scrolling="no" frameborder="0" loading="lazy" allowfullscreen allow="clipboard-write; encrypted-media; picture-in-picture; web-share" title="Aketi This Week, ' + esc(fmt(r.date)) + '"></iframe></div>' +
+    return '<figure class="tw-card"><div class="tw-embed"><iframe data-src="https://www.facebook.com/plugins/post.php?href=' + encodeURIComponent(postUrl(id)) + '&show_text=true" width="500" height="640" scrolling="no" frameborder="0" loading="lazy" allowfullscreen allow="clipboard-write; encrypted-media; picture-in-picture; web-share" title="Aketi This Week, ' + esc(fmt(r.date)) + '"></iframe></div>' +
       '<figcaption><time>' + fmt(r.date) + '</time></figcaption></figure>';
   }).join("");
+  if (tf) [].forEach.call(tf.querySelectorAll("iframe[data-src]"), function (f) {
+    var w = Math.min(500, Math.max(250, Math.floor(f.parentElement.clientWidth || 350)));
+    f.src = f.getAttribute("data-src") + "&width=" + w;
+    f.removeAttribute("data-src");
+  });
   var ta = document.getElementById("tw-archive");
   if (ta) {
     var years = {};
@@ -106,8 +111,8 @@
   var cur = "projects", shown = 6;
   function items(c) { return c === "onair" ? radio : vids.filter(function (v) { return v.cat === c; }); }
   function fbCard(v) {
-    var src = "https://www.facebook.com/plugins/video.php?href=" + encodeURIComponent("https://www.facebook.com/olatunde.rechard/videos/" + v.fb + "/") + "&show_text=false&width=560";
-    return '<figure class="video"><div class="frame"><iframe src="' + src + '" title="' + esc(v.title) + '" loading="lazy" scrolling="no" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>' +
+    var src = "https://www.facebook.com/plugins/video.php?href=" + encodeURIComponent("https://www.facebook.com/olatunde.rechard/videos/" + v.fb + "/") + "&show_text=false";
+    return '<figure class="video"><div class="frame"><iframe data-src="' + src + '" title="' + esc(v.title) + '" loading="lazy" scrolling="no" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>' +
       '<figcaption><h3>' + esc(v.title) + '</h3><p class="meta"><a href="https://www.facebook.com/olatunde.rechard/videos/' + v.fb + '/" target="_blank" rel="noopener">Watch on Facebook</a></p></figcaption></figure>';
   }
   function radioCard(r) {
@@ -115,9 +120,18 @@
       '<figcaption><p class="meta"><span class="tag light">' + esc(r.station) + '</span>' + (r.date ? '<time>' + fmt(r.date) + '</time>' : '') + '</p>' +
       '<h3>' + esc(r.title) + '</h3><p>' + esc(r.summary) + '</p></figcaption></figure>';
   }
+  function sizeFrames(root) {
+    [].forEach.call(root.querySelectorAll("iframe[data-src]"), function (f) {
+      var w = Math.max(220, Math.floor(f.parentElement.clientWidth || 320));
+      var h = Math.round(w * 9 / 16);
+      f.src = f.getAttribute("data-src") + "&width=" + w + "&height=" + h;
+      f.removeAttribute("data-src");
+    });
+  }
   function renderVideos() {
     var list = items(cur);
     vl.innerHTML = list.slice(0, shown).map(cur === "onair" ? radioCard : fbCard).join("");
+    sizeFrames(vl);
     vm.hidden = list.length <= shown;
     vi.textContent = vcats.filter(function (c) { return c.id === cur; })[0].intro;
     [].forEach.call(vt.children, function (b) { b.classList.toggle("on", b.dataset.cat === cur); b.setAttribute("aria-selected", b.dataset.cat === cur); });
