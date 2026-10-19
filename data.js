@@ -872,5 +872,462 @@ window.PORTFOLIO = {
    "video": "media/media-parley-8.mp4",
    "poster": "media/media-parley-8.jpg"
   }
- ]
+ ],
+ "videos": [
+ {
+  "cat": "projects",
+  "fb": "275625721641741",
+  "title": "Documentary: the gains of the Akeredolu administration"
+ },
+ {
+  "cat": "projects",
+  "fb": "111799361914540",
+  "title": "The Ore Redemption Bridge, commissioned by President Buhari"
+ },
+ {
+  "cat": "projects",
+  "fb": "2850221595271329",
+  "title": "The Ore flyover"
+ },
+ {
+  "cat": "projects",
+  "fb": "812025416521597",
+  "title": "The 10km Okitipupa-Igbokoda bypass, ready for commissioning"
+ },
+ {
+  "cat": "projects",
+  "fb": "1501161327025696",
+  "title": "Governor Sanwo-Olu commissions the Okitipupa-Igbokoda bypass"
+ },
+ {
+  "cat": "projects",
+  "fb": "2943849295910966",
+  "title": "Water is life: reviving the Owena Dam"
+ },
+ {
+  "cat": "projects",
+  "fb": "536734295032571",
+  "title": "Akunnu-Ikaram-Oke-Agbe road, abandoned for 18 years, rebuilt"
+ },
+ {
+  "cat": "projects",
+  "fb": "623161228782190",
+  "title": "The 9km Ikaramu-Akunnu road completed"
+ },
+ {
+  "cat": "projects",
+  "fb": "3955592421186173",
+  "title": "Ikaram and Akunu-Akoko residents on their new road"
+ },
+ {
+  "cat": "projects",
+  "fb": "546882959781482",
+  "title": "Ikare-Akoko township road dualised"
+ },
+ {
+  "cat": "projects",
+  "fb": "565916352181236",
+  "title": "A second road for a hill town that had only one"
+ },
+ {
+  "cat": "projects",
+  "fb": "609852867053137",
+  "title": "Inspecting the rehabilitated Ayede-Ogbese road"
+ },
+ {
+  "cat": "projects",
+  "fb": "145334801067742",
+  "title": "Road users on the repaired Ogbese-Owo road"
+ },
+ {
+  "cat": "projects",
+  "fb": "3630169747061777",
+  "title": "The Governor on the plan for a state jetty"
+ },
+ {
+  "cat": "projects",
+  "fb": "3303436223068466",
+  "title": "Inspecting projects in the Shasha community, Akure North"
+ },
+ {
+  "cat": "people",
+  "fb": "471936344555999",
+  "title": "Training and empowering food vendors and caterers"
+ },
+ {
+  "cat": "people",
+  "fb": "957728501626308",
+  "title": "Entrepreneurship beneficiaries: seeds planted every Friday"
+ },
+ {
+  "cat": "people",
+  "fb": "3545017938910292",
+  "title": "Youth entrepreneurship across the three senatorial districts"
+ },
+ {
+  "cat": "people",
+  "fb": "3494697520609001",
+  "title": "Support for grassroots entrepreneurs and micro businesses"
+ },
+ {
+  "cat": "people",
+  "fb": "3296918430386912",
+  "title": "Launching ONDEA for economic recovery after Covid-19"
+ },
+ {
+  "cat": "people",
+  "fb": "4000732800005468",
+  "title": "Choosing to support the girl child"
+ },
+ {
+  "cat": "people",
+  "fb": "3587722731306479",
+  "title": "With community pharmacists on primary healthcare"
+ },
+ {
+  "cat": "governance",
+  "fb": "4012293095516105",
+  "title": "State of the State broadcast, 6 May 2021"
+ },
+ {
+  "cat": "governance",
+  "fb": "782985736433847",
+  "title": "We are proud of Amotekun"
+ },
+ {
+  "cat": "governance",
+  "fb": "568874687515810",
+  "title": "No apologies for the ban on open grazing"
+ },
+ {
+  "cat": "governance",
+  "fb": "2952296771676670",
+  "title": "Nomadic farming must be discouraged, part 2"
+ },
+ {
+  "cat": "governance",
+  "fb": "3998641073547974",
+  "title": "Insecurity: the state returns 42 suspected invaders"
+ },
+ {
+  "cat": "governance",
+  "fb": "3484710601607693",
+  "title": "On a field visit with the heads of security agencies"
+ },
+ {
+  "cat": "governance",
+  "fb": "633698247923483",
+  "title": "Retreat for political office holders and accounting officers, Owo"
+ },
+ {
+  "cat": "governance",
+  "fb": "477940677065930",
+  "title": "Why the retreat?"
+ },
+ {
+  "cat": "governance",
+  "fb": "3786591031419647",
+  "title": "Ondo adopts an indigenous anthem"
+ },
+ {
+  "cat": "governance",
+  "fb": "3870275466384536",
+  "title": "The morning after the second term inauguration"
+ },
+ {
+  "cat": "governance",
+  "fb": "605021943947762",
+  "title": "The 45th convocation lecture at OAU: When Is A Nation"
+ },
+ {
+  "cat": "governance",
+  "fb": "1427863784251613",
+  "title": "Leading the Southern Governors' Forum meeting in Lagos"
+ },
+ {
+  "cat": "governance",
+  "fb": "3487568944655192",
+  "title": "Southwest governors condole with Lagos State"
+ },
+ {
+  "cat": "record",
+  "fb": "4027697637308984",
+  "title": "On TVC's Your View after the Southern Governors' meeting"
+ },
+ {
+  "cat": "record",
+  "fb": "4027505613994853",
+  "title": "On Channels TV's Sunrise Daily"
+ },
+ {
+  "cat": "record",
+  "fb": "3883884201690329",
+  "title": "On Channels TV"
+ },
+ {
+  "cat": "record",
+  "fb": "3533102210101865",
+  "title": "On the #EndSARS frozen accounts: challenge the CBN in court"
+ },
+ {
+  "cat": "record",
+  "fb": "4125441897534557",
+  "title": "My rumoured meeting with judges is laughable"
+ },
+ {
+  "cat": "record",
+  "fb": "691591285500617",
+  "title": "Back home: arrival in Abuja, 17 April 2022"
+ },
+ {
+  "cat": "record",
+  "fb": "1456918961741997",
+  "title": "No reply to rumours: the Governor watches Manchester United with friends"
+ },
+ {
+  "cat": "record",
+  "fb": "1018319455726199",
+  "title": "Ignore Gistlover: fake news is evil"
+ },
+ {
+  "cat": "milestones",
+  "fb": "798458027876001",
+  "title": "Conferred with the national honour, Commander of the Order of the Niger"
+ },
+ {
+  "cat": "milestones",
+  "fb": "882133079319347",
+  "title": "Vanguard Governor of the Year"
+ },
+ {
+  "cat": "milestones",
+  "fb": "3587557424656343",
+  "title": "National award from the community pharmacists"
+ },
+ {
+  "cat": "milestones",
+  "fb": "3964881843590564",
+  "title": "Jubilation as the tribunal upholds his victory"
+ },
+ {
+  "cat": "milestones",
+  "fb": "1456341921408803",
+  "title": "Supreme Court victory: jubilation in Akure"
+ },
+ {
+  "cat": "milestones",
+  "fb": "571410427203706",
+  "title": "Supreme Court verdict: reception at Akure airport"
+ },
+ {
+  "cat": "milestones",
+  "fb": "5748226571918063",
+  "title": "Highlights of the 65th birthday celebration"
+ },
+ {
+  "cat": "campaign",
+  "fb": "3190577477687675",
+  "title": "Declared winner of the APC primary"
+ },
+ {
+  "cat": "campaign",
+  "fb": "3192509237494499",
+  "title": "Owo welcomes him home after the primary"
+ },
+ {
+  "cat": "campaign",
+  "fb": "3204366889642067",
+  "title": "The song across Ondo: continuity"
+ },
+ {
+  "cat": "campaign",
+  "fb": "3228748067203949",
+  "title": "The Deji of Akure on the administration's work"
+ },
+ {
+  "cat": "campaign",
+  "fb": "3315369781875110",
+  "title": "Arriving Okitipupa for the reunification rally"
+ },
+ {
+  "cat": "campaign",
+  "fb": "3353347534744001",
+  "title": "Olusola Oke on the Ondo South agenda"
+ },
+ {
+  "cat": "campaign",
+  "fb": "3366393500106071",
+  "title": "Ondo town welcomes the campaign train"
+ },
+ {
+  "cat": "campaign",
+  "fb": "3369483959797025",
+  "title": "The women of Iwaro Oka hold down the convoy"
+ },
+ {
+  "cat": "campaign",
+  "fb": "3282619081816847",
+  "title": "The Governor and the First Lady cast their votes"
+ },
+ {
+  "cat": "campaign",
+  "fb": "886425225287001",
+  "title": "Victory sealed: celebration on the streets of Akure"
+ },
+ {
+  "cat": "campaign",
+  "fb": "3437086749703412",
+  "title": "Victory rally in Owo with the Deputy Governor-elect"
+ }
+],
+ "recaps": [
+ {
+  "date": "2021-03-08",
+  "post": "3839832162762200"
+ },
+ {
+  "date": "2021-03-15",
+  "post": "3857921550953261"
+ },
+ {
+  "date": "2021-03-22",
+  "post": "3879681922110557"
+ },
+ {
+  "date": "2021-03-29",
+  "post": "3900942773317805"
+ },
+ {
+  "date": "2021-04-05",
+  "post": "3922788484466567"
+ },
+ {
+  "date": "2021-05-03",
+  "post": "4001872669891481"
+ },
+ {
+  "date": "2021-05-10",
+  "post": "4022978991114182"
+ },
+ {
+  "date": "2021-05-17",
+  "post": "4044355022309912"
+ },
+ {
+  "date": "2021-05-24",
+  "post": "4065782086833872"
+ },
+ {
+  "date": "2021-05-31",
+  "post": "4086617914750289"
+ },
+ {
+  "date": "2021-06-07",
+  "post": "4106480236097390"
+ },
+ {
+  "date": "2021-06-14",
+  "post": "4125803340831746"
+ },
+ {
+  "date": "2021-06-21",
+  "post": "4144632768948803"
+ },
+ {
+  "date": "2021-07-12",
+  "post": "4202316353180444"
+ },
+ {
+  "date": "2021-07-19",
+  "post": "4221391651272914"
+ },
+ {
+  "date": "2021-07-26",
+  "post": "4242377489174330"
+ },
+ {
+  "date": "2021-08-02",
+  "post": "4262592197152859"
+ },
+ {
+  "date": "2021-08-23",
+  "post": "4325303124215099"
+ },
+ {
+  "date": "2021-08-30",
+  "post": "4346257195453025"
+ },
+ {
+  "date": "2021-09-06",
+  "post": "4366868143391930"
+ },
+ {
+  "date": "2021-09-13",
+  "post": "4389102811168463"
+ },
+ {
+  "date": "2021-11-08",
+  "post": "4563714637040612"
+ },
+ {
+  "date": "2021-12-06",
+  "post": "4654266361318772"
+ },
+ {
+  "date": "2021-12-13",
+  "post": "4677112302367511"
+ },
+ {
+  "date": "2022-01-10",
+  "post": "4780767302002010"
+ },
+ {
+  "date": "2022-01-31",
+  "post": "4868018206610252"
+ },
+ {
+  "date": "2022-02-07",
+  "post": "4890530277692378"
+ },
+ {
+  "date": "2022-02-14",
+  "post": "4912045185540887"
+ },
+ {
+  "date": "2022-02-28",
+  "post": "4954173207994751"
+ },
+ {
+  "date": "2022-03-14",
+  "post": "4991721490906589"
+ },
+ {
+  "date": "2022-03-21",
+  "post": "5010096245735780"
+ },
+ {
+  "date": "2022-06-20",
+  "post": "5260055810739821"
+ },
+ {
+  "date": "2022-06-27",
+  "post": "5279865532092182"
+ },
+ {
+  "date": "2022-07-18",
+  "post": "5338664189545649"
+ },
+ {
+  "date": "2022-08-15",
+  "post": "5413757122036355"
+ },
+ {
+  "date": "2022-08-22",
+  "post": "5433663253379075"
+ },
+ {
+  "date": "2022-08-29",
+  "post": "5453031418108925"
+ }
+]
 };

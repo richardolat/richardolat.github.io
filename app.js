@@ -67,13 +67,70 @@
       '<p>' + esc(s.summary) + ' <span class="source">' + esc(s.outlet) + '</span></p></div></li>';
   }).join("");
 
-  // Radio
-  document.getElementById("radio-list").innerHTML = (data.radio || []).slice().sort(byDate).map(function (r) {
-    var media = r.youtube
-      ? '<div class="frame"><iframe src="https://www.youtube-nocookie.com/embed/' + esc(r.youtube) + '" title="' + esc(r.title) + '" allowfullscreen loading="lazy"></iframe></div>'
-      : '<div class="frame"><video controls preload="none" playsinline poster="' + esc(r.poster) + '"><source src="' + esc(r.video) + '" type="video/mp4"></video></div>';
-    return '<figure class="video">' + media +
+  // Aketi This Week
+  var recaps = (data.recaps || []).slice().sort(byDate);
+  function postUrl(id) { return "https://www.facebook.com/100002063623600/posts/" + id; }
+  var twc = document.getElementById("tw-count");
+  if (twc) twc.textContent = recaps.length;
+  var feat = ["3857921550953261", "4125803340831746", "5010096245735780"];
+  var tf = document.getElementById("tw-featured");
+  if (tf) tf.innerHTML = feat.map(function (id) {
+    var r = recaps.filter(function (x) { return x.post === id; })[0] || {};
+    return '<figure class="tw-card"><div class="tw-embed"><iframe src="https://www.facebook.com/plugins/post.php?href=' + encodeURIComponent(postUrl(id)) + '&width=500&show_text=true" width="500" height="640" scrolling="no" frameborder="0" loading="lazy" allowfullscreen allow="clipboard-write; encrypted-media; picture-in-picture; web-share" title="Aketi This Week, ' + esc(fmt(r.date)) + '"></iframe></div>' +
+      '<figcaption><time>' + fmt(r.date) + '</time></figcaption></figure>';
+  }).join("");
+  var ta = document.getElementById("tw-archive");
+  if (ta) {
+    var years = {};
+    recaps.forEach(function (r) { var y = r.date.slice(0, 4); (years[y] = years[y] || []).push(r); });
+    ta.innerHTML = Object.keys(years).sort().reverse().map(function (y) {
+      return '<div class="tw-year"><h4>' + y + '</h4><ul>' + years[y].map(function (r) {
+        return '<li><a href="' + postUrl(r.post) + '" target="_blank" rel="noopener">' + fmt(r.date, true) + '</a></li>';
+      }).join("") + '</ul></div>';
+    }).join("");
+  }
+
+  // Videos
+  var vcats = [
+    { id: "projects", label: "Projects", intro: "Roads, bridges, water and the people who use them." },
+    { id: "people", label: "People", intro: "Empowerment, enterprise and social programmes." },
+    { id: "governance", label: "Governance", intro: "Policy, security, the council and the regional stage." },
+    { id: "record", label: "On the Record", intro: "Television interviews and answers to rumour, on camera." },
+    { id: "milestones", label: "Milestones", intro: "Honours, court victories and celebrations." },
+    { id: "campaign", label: "Campaign 2020", intro: "The re-election campaign he spoke for as spokesperson." },
+    { id: "onair", label: "On Air", intro: "Media Parley on Adaba 88.9 FM, Akure: the state-sponsored programme he presented as Special Assistant on New Media." }
+  ];
+  var vids = data.videos || [];
+  var radio = (data.radio || []).slice().sort(byDate);
+  var vt = document.getElementById("video-tabs"), vl = document.getElementById("video-list"), vi = document.getElementById("video-intro"), vm = document.getElementById("video-more");
+  var cur = "projects", shown = 6;
+  function items(c) { return c === "onair" ? radio : vids.filter(function (v) { return v.cat === c; }); }
+  function fbCard(v) {
+    var src = "https://www.facebook.com/plugins/video.php?href=" + encodeURIComponent("https://www.facebook.com/olatunde.rechard/videos/" + v.fb + "/") + "&show_text=false&width=560";
+    return '<figure class="video"><div class="frame"><iframe src="' + src + '" title="' + esc(v.title) + '" loading="lazy" scrolling="no" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>' +
+      '<figcaption><h3>' + esc(v.title) + '</h3><p class="meta"><a href="https://www.facebook.com/olatunde.rechard/videos/' + v.fb + '/" target="_blank" rel="noopener">Watch on Facebook</a></p></figcaption></figure>';
+  }
+  function radioCard(r) {
+    return '<figure class="video"><div class="frame"><video controls preload="none" playsinline poster="' + esc(r.poster) + '"><source src="' + esc(r.video) + '" type="video/mp4"></video></div>' +
       '<figcaption><p class="meta"><span class="tag light">' + esc(r.station) + '</span>' + (r.date ? '<time>' + fmt(r.date) + '</time>' : '') + '</p>' +
       '<h3>' + esc(r.title) + '</h3><p>' + esc(r.summary) + '</p></figcaption></figure>';
-  }).join("");
+  }
+  function renderVideos() {
+    var list = items(cur);
+    vl.innerHTML = list.slice(0, shown).map(cur === "onair" ? radioCard : fbCard).join("");
+    vm.hidden = list.length <= shown;
+    vi.textContent = vcats.filter(function (c) { return c.id === cur; })[0].intro;
+    [].forEach.call(vt.children, function (b) { b.classList.toggle("on", b.dataset.cat === cur); b.setAttribute("aria-selected", b.dataset.cat === cur); });
+  }
+  if (vt) {
+    vt.innerHTML = vcats.map(function (c) {
+      return '<button type="button" role="tab" data-cat="' + c.id + '">' + esc(c.label) + '<span class="count">' + items(c.id).length + '</span></button>';
+    }).join("");
+    vt.addEventListener("click", function (e) {
+      var b = e.target.closest("button"); if (!b) return;
+      cur = b.dataset.cat; shown = 6; renderVideos();
+    });
+    vm.addEventListener("click", function () { shown += 6; renderVideos(); });
+    renderVideos();
+  }
 })();
